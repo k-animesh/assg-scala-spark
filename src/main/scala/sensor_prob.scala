@@ -4,7 +4,7 @@ import java.sql.Timestamp
 import java.util.Calendar
 
 import java.sql.Timestamp
-object sensor_data {
+object sensor_prob {
   def main(args:Array[String]): Unit = {
     val sc = new SparkContext("local[*]","sensor")
     // Function to generate a random timestamp

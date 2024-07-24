@@ -1,5 +1,5 @@
 import org.apache.spark.SparkContext
-object sortby {
+object sort_by {
   def main(args: Array[String]): Unit = {
     val sc = new SparkContext("local[4]", "karthik")
 

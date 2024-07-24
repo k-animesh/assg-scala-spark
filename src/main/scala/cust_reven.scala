@@ -1,5 +1,5 @@
 import org.apache.spark.SparkContext
-object cust_revenue {
+object cust_reven {
   def main(args:Array[String]): Unit = {
     val sc = new SparkContext("local[*]","scala_spark")
     val orders = List(
